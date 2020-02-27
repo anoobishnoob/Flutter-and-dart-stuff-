@@ -1,0 +1,38 @@
+void main() {
+	//lists are the equivalent to arrays
+  //maps are the equivalent to dictionaries
+
+  var list = [1,2,3,4,5,10];
+  var onlySrings = new List<String>();
+
+  onlySrings.add("Samme");
+  onlySrings.add("Jellyfish");
+  print (list[1]);
+
+  print(list.length); //how many items in array  
+  print(list[list.length-1]); // prints last item
+/*
+  for (int i =0; i<list.length; ++i){
+    print("the item at index");
+    print(i);
+    print("is");
+    print(list[i]);
+    // learn how to do this more properly later
+    // https://stackoverflow.com/questions/47329215/how-to-print-message-in-terminal-with-concat-two-strings-in-flutter
+  }
+  */
+
+  for(int i = 0; i< list.length; ++i){
+    print("Index $i contains ${list[i]}");
+  }
+
+  for (int i =0; i<onlySrings.length; ++i){
+    print(onlySrings[i]);
+    }
+
+
+  
+
+
+
+}
